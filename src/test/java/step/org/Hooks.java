@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import libGlobal.BaseClass;
 
@@ -35,6 +36,10 @@ public class Hooks extends BaseClass {
 
 	
 	
+	}
+	@AfterStep
+	public void git() {
+		
 	}
 
 }
