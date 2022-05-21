@@ -9,6 +9,7 @@ import org.apache.log4j.PropertyConfigurator;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
+import io.cucumber.java.BeforeStep;
 import libGlobal.BaseClass;
 
 public class Hooks extends BaseClass {
@@ -36,6 +37,12 @@ public class Hooks extends BaseClass {
 
 	
 	
+	}
+
+	@BeforeStep
+	private void tamil() {
+		// TODO Auto-generated method stub
+
 	}
 	@AfterStep
 	public void git() {
