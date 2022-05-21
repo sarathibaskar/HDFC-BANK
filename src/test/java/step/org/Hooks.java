@@ -38,14 +38,15 @@ public class Hooks extends BaseClass {
 	
 	
 	}
-	@AfterStep
-	public void git() {
-		
-	}
+
 	@BeforeStep
 	private void tamil() {
 		// TODO Auto-generated method stub
 
+	}
+	@AfterStep
+	public void git() {
+		System.out.println();
 	}
 
 }
