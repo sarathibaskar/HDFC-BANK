@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-20T08:43:20.277Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22948000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.org.Hooks.fore()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verifying HDFC login page",
+        "description": "",
+        "id": "verifying-hdfc-bank;verifying-hdfc-login-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 894000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.org.Hooks.ter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 63000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am enter the HDFC URL",
+            "match": {
+              "location": "step.org.StepDefinition.i_am_enter_the_HDFC_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1890000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am enter the Invalid \"134567890345678\" And Click Continue Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"134567890345678\"",
+                  "offset": 23
+                }
+              ],
+              "location": "step.org.StepDefinition.i_am_enter_the_Invalid_And_Click_Continue_Button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am enter Password \"Sarathi@18\" And Click Login Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sarathi@18\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step.org.StepDefinition.i_am_enter_Password_And_Click_Login_Button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8215000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I will verfying the Invalid username or password error messaging dispalyed",
+            "match": {
+              "location": "step.org.StepDefinition.i_will_verfying_the_Invalid_username_or_password_error_messaging_dispalyed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying HDFC bank",
+    "description": "",
+    "id": "verifying-hdfc-bank",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/HDFC.features/HDFC.feature",
+    "tags": []
+  }
+]
