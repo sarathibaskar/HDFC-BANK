@@ -39,7 +39,7 @@ public class Hooks extends BaseClass {
 	}
 	@AfterStep
 	public void git() {
-		
+		System.out.println();
 	}
 
 }
